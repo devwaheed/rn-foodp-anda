@@ -6,9 +6,6 @@ class HomeComponent extends React.Component  {
         return (
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}> 
                 <Text>Home</Text>
-                <Button
-                    title="Restaurants"
-                />
             </View>
         );
     }
